@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas1{
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    max-height: 100%;
+
+}
+#player,#layer-1,#layer-2,#layer-3,#layer-4,#layer-5,#enemy_fly,#enemy_plant,#enemy_spider_big,#boom,#fire,#lives{
+    display: none;
+}
